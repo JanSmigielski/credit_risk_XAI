@@ -1,3 +1,10 @@
-# Ignore all data folders (raw and cleaned)
-data/raw/
-data/cleaned/
+# Ignore everything inside raw and cleaned
+data/raw/*
+data/cleaned/*
+
+# Keep the folders themselves
+!data/raw/.gitkeep
+!data/cleaned/.gitkeep
+
+# Track everything inside data/processed
+!data/processed/
