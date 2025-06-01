@@ -8,3 +8,6 @@ data/cleaned/*
 
 # Track everything inside data/processed
 !data/processed/
+
+# System files 
+.DS_store
